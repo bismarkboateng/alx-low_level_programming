@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program 
+ * main - Entry point
  *
- * Description: outputs a text 
+ * Description: prints "with proper grammar, but the outcome is a piece of 
+ * art,"
  *
- * Return: 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
