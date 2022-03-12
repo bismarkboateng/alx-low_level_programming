@@ -10,11 +10,13 @@
 int main(void)
 {
 	int a = 'a';
-	do{
+
+	do {
+
 		putchar(a);
 		a++;
 
-	} while (a < 'z');
+	} while (a <= 'z');
 
 	return (0);
 }
