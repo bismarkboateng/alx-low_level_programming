@@ -10,13 +10,13 @@ int main(void)
 
 	for (y = '0'; y <= '9'; y++)
 	{
-		putchar(c);
+		putchar(y);
 	}
 
 
 	for (y = 'a'; y <= 'f'; y++)
 	{
-		putchar(c);
+		putchar(y);
 	}
 
 	putchar('\n');
