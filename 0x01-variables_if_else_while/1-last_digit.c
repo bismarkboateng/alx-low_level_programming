@@ -27,7 +27,7 @@ int main(void)
 		printf("%s %i is %i and is 0\n", str, n, LastDigit);
 	} else if (LastDigit < 6)
 	{
-		printf("%s %i is %i and is less than 6 not 0\n", str, n, LastDigit);
+		printf("%s %i is %i and is less than 6 and not 0\n", str, n, LastDigit);
 	}
 	return (0);
 }
