@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-/* main - Entry point */
-
-/* betty style doc for function main goes there */
+/**
+ * main - prints a number
+ *
+ * Description: prints if a number is positive or not or zero
+ *
+ * Return: Allways 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -12,7 +15,6 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 
-	
 	if (n > 0)
 	{
 		printf("%i is positive\n", n);
