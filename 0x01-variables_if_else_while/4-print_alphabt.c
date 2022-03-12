@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	for (x = 'a'; x <= 'z'; x++)
+	for (int x = 'a'; x <= 'z'; x++)
 	{
 		if (x != 'e'  && x != 'q')
 		{
