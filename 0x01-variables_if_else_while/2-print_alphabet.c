@@ -13,8 +13,8 @@ int main(void)
 	{
 		x = tolower(x);
 		putchar(x);
-		putchar('\n');
 	}
+	putchar("\n");
 
 	return (0);
 }
