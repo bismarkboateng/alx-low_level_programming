@@ -8,27 +8,26 @@
   *
   * Return: char value
   */
-
 char *_strncpy(char *dest, char *src, int n)
 {
-int x = 0, y = 0;
+	int a = 0, b = 0;
 
-while (src[y])
-{
-y++;
-}
+	while (src[b])
+	{
+		b++;
+	}
 
-while (x < n && src[x])
-{
-dest[x] = src[x];
-a++;
-}
+	while (a < n && src[a])
+	{
+		dest[a] = src[a];
+		a++;
+	}
 
-while (x < n)
-{
-dest[x] = '\0';
-x++;
-}
+	while (a < n)
+	{
+		dest[a] = '\0';
+		a++;
+	}
 
-return (dest);
+	return (dest);
 }
